@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-ssm-sap`](https://www.npmjs.com/package/@aws-sdk/client-ssm-sap/v/3.238.0).
+[`@aws-sdk/client-ssm-sap`](https://www.npmjs.com/package/@aws-sdk/client-ssm-sap/v/3.241.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-sap@3.238.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-sap@3.241.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-ftuPSfzrgZ8kgPXuUI0nqBr+obo2vtlB4sprswdP3iRAmsuQ+LPx5ZtoHZY5z0pG
+sha384-9bBCwQXv9W3pCnw8/C1VDs/+nxt3lBFrfCdLe7Dd8ZALeY6TzzR2ifRwx2p8YdDQ
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-ssm-sap": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-sap@3.238.0/index.min.mjs"
+            "@aws-sdk/client-ssm-sap": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-sap@3.241.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-sap@3.238.0/index.min.mjs": "sha384-ftuPSfzrgZ8kgPXuUI0nqBr+obo2vtlB4sprswdP3iRAmsuQ+LPx5ZtoHZY5z0pG"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-sap@3.241.0/index.min.mjs": "sha384-9bBCwQXv9W3pCnw8/C1VDs/+nxt3lBFrfCdLe7Dd8ZALeY6TzzR2ifRwx2p8YdDQ"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-ssm-sap": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-sap@3.238.0/index.min.mjs"
+                        "@aws-sdk/client-ssm-sap": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-sap@3.241.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-sap@3.238.0/index.min.mjs": "sha384-ftuPSfzrgZ8kgPXuUI0nqBr+obo2vtlB4sprswdP3iRAmsuQ+LPx5ZtoHZY5z0pG"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-sap@3.241.0/index.min.mjs": "sha384-9bBCwQXv9W3pCnw8/C1VDs/+nxt3lBFrfCdLe7Dd8ZALeY6TzzR2ifRwx2p8YdDQ"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.238.0`)
+* Always pin to a specific version (`@3.241.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-ssm-sap/blob/refs/tags/3.238.0/LICENSE
+https://github.com/cloud-sdk-builds/client-ssm-sap/blob/refs/tags/3.241.0/LICENSE
 ```
 
 ---
